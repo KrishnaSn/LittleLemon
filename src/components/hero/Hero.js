@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css";
-import Hero1 from "../../assets/Hero.jpg";
 export const Hero = () => {
   return (
     <div className="hero">
@@ -19,7 +18,6 @@ export const Hero = () => {
           </button>
         </div>
         <div className="image">
-          <img src={Hero1} alt="dish" />
         </div>
       </div>
     </div>
