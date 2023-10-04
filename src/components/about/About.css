@@ -112,3 +112,56 @@
     z-index: 1;;
   }
 }
+
+@media screen and (max-width:450px) {
+
+  .about {
+    width: 100%;
+    height: 356px;
+  }
+  .about .container {
+    padding-top: 2rem;
+  }
+
+  .side-text {
+    padding-left: 1rem;
+  }
+  .side-text > h1 {
+    font-size: 22px;
+    padding-top: 1rem;
+  }
+  
+  .side-text > h2 {
+    font-size: 12px;
+  }
+  
+  .side-text > p {
+    font-size: 8px;
+    padding-top: 10px;
+  }
+  
+  
+  
+  .aboutusimage .imageholders {
+    width: 128px;
+    height: 206px;
+    background: url("../../assets/About1.jpg") no-repeat center center/cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: solid 2px;
+  }
+  
+  .aboutusimage .primary{
+    /* position: absolute; */
+    left: 50px;
+    z-index: -1;
+    margin-top: 5rem;
+  }
+  
+  .aboutusimage .secondary {
+    position: relative;
+    background: url("../../assets/About2.jpg") no-repeat center center/cover;
+    z-index: 1;;
+  }
+}

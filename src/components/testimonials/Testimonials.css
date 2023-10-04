@@ -118,3 +118,45 @@
    padding-left: 0.6rem; 
   }
 }
+
+@media screen and (max-width: 450px) {
+  .Testimonials {
+    height: 190px;
+  }
+
+  .Testimonials .container > h1 {
+    font-size: 22px;
+    margin-top: 2.5rem;
+  }
+  
+  .cards-section {
+    gap: .6rem;
+  }
+  .card-holder {
+    width: 90px;
+    height: 65px;
+    padding: .8rem;
+  }
+  
+  .imageholder{
+    width: 14px;
+    height: 15px;
+  }
+  
+  .user-holder {
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+  }
+  .card-text {
+    font-size: 5px;
+  }
+  
+  .card-text-last {
+    font-size: 5px;
+  }
+  
+  .card-holder .secondary {
+    padding-top: 0.2rem; 
+   padding-left: 0.5rem; 
+  }
+}
