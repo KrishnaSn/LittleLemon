@@ -33,6 +33,7 @@
 @media screen and (max-width: 940px) {
   .footer {
     height: 317px;
+    width: 100%;
   }
 
   .left-section > img {
