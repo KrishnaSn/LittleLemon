@@ -5,7 +5,7 @@ export const Highlights = () => {
   return (
     <div className="highlights">
       <div className="container">
-        <h1>This weeks specials</h1>
+        <h1>This weeks specials!</h1>
         <button className="btn">Online Menu</button>
       </div>
       <div className="highlightssecond">

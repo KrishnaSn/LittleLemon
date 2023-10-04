@@ -1,0 +1,114 @@
+.about {
+  width: 100%;
+  height: 606px;
+}
+
+.about .container {
+  display: flex;
+  padding-top: 4rem;
+}
+.side-text > h1 {
+  color: #495e57;
+  font-weight: medium;
+  font-family: "Markazi Text";
+  font-size: 64px;
+  padding-top: 2rem;
+}
+
+.side-text > h2 {
+  color: #333333;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.side-text > p {
+  color: #000000;
+  font-family: "Karla";
+  font-weight: bold;
+  font-size: 20px;
+  unicode-bidi: bidi-override;
+  padding-top: 20px;
+}
+
+.aboutusimage{
+  display: flex;
+  padding-left: 4rem
+}
+
+
+.aboutusimage .imageholders {
+  width: 268px;
+  height: 336px;
+  background: url("../../assets/About1.jpg") no-repeat center center/cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: solid 2px;
+}
+
+.aboutusimage .primary{
+  /* position: absolute; */
+  left: 120px;
+  z-index: -1;
+  margin-top: 9rem;
+}
+
+.aboutusimage .secondary {
+  position: relative;
+  background: url("../../assets/About2.jpg") no-repeat center center/cover;
+  z-index: 1;;
+}
+
+
+@media screen and (max-width:940px) {
+
+  .about {
+    width: 100%;
+    height: 356px;
+  }
+  .about .container {
+    padding-top: 2rem;
+  }
+
+  .side-text {
+    padding-left: 1rem;
+  }
+  .side-text > h1 {
+    font-size: 32px;
+    padding-top: 1rem;
+  }
+  
+  .side-text > h2 {
+    font-size: 20px;
+  }
+  
+  .side-text > p {
+    font-size: 9px;
+    padding-top: 10px;
+  }
+  
+  
+  
+  .aboutusimage .imageholders {
+    width: 128px;
+    height: 206px;
+    background: url("../../assets/About1.jpg") no-repeat center center/cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: solid 2px;
+  }
+  
+  .aboutusimage .primary{
+    /* position: absolute; */
+    left: 50px;
+    z-index: -1;
+    margin-top: 5rem;
+  }
+  
+  .aboutusimage .secondary {
+    position: relative;
+    background: url("../../assets/About2.jpg") no-repeat center center/cover;
+    z-index: 1;;
+  }
+}

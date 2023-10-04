@@ -1,6 +1,8 @@
+import { About } from "./components/about/About";
 import { Hero } from "./components/hero/Hero";
 import { Highlights } from "./components/highlights/Highlights";
 import { Navbar } from "./components/navbar/Navbar";
+import { Testimonials } from "./components/testimonials/Testimonials";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Navbar />
       <Hero />
       <Highlights />
+      <Testimonials />
+      <About />
     </>
   );
 }
