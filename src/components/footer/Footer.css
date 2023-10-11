@@ -30,7 +30,15 @@
   font-size: 23px;
 }
 
-@media screen and (max-width: 940px) {
+.text-holder li a {
+  color: white;
+}
+
+.text-holder li a:hover {
+  text-decoration: underline solid #f7f7f7;
+}
+
+@media screen and (max-width: 768px) {
   .footer {
     height: 317px;
     width: 100%;
@@ -40,36 +48,6 @@
     margin-top: 3rem;
     width: 108px;
     height: 228px;
-  }
-
-  .right-section {
-    margin-top: 8rem;
-    margin-left: 3rem;
-    display: flex;
-    gap: 3rem;
-  }
-  .text-holder {
-    color: #ffffff;
-    font-size: 8px;
-  }
-
-  .text-holder > h3 {
-    font-weight: 800;
-    font-size: 11px;
-  }
-}
-
-
-@media screen and (max-width: 450px) {
-  .footer {
-    height: 317px;
-  }
-
-  .left-section > img {
-    margin-top: 3rem;
-    width: 88px;
-    height: 208px;
-    margin-left: 10px;
   }
 
   .right-section {

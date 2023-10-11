@@ -35,7 +35,7 @@
   color: #E93030;
 }
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:768px) {
   .navbar .nav-menu{
     position: absolute;
     display: flex;

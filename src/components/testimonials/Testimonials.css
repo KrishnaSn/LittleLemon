@@ -77,9 +77,10 @@
   padding-left: 0.8rem;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 768px) {
   .Testimonials {
     height: 250px;
+    width: 100%;
   }
 
   .Testimonials .container > h1 {
@@ -116,48 +117,5 @@
   .card-holder .secondary {
     padding-top: 0.3rem;
     padding-left: 0.6rem;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .Testimonials {
-    height: 190px;
-    width: 100%;
-  }
-
-  .Testimonials .container > h1 {
-    font-size: 22px;
-    margin-top: 2.5rem;
-  }
-
-  .cards-section {
-    gap: 0.6rem;
-  }
-  .card-holder {
-    width: 90px;
-    height: 65px;
-    padding: 0.8rem;
-  }
-
-  .imageholder {
-    width: 14px;
-    height: 15px;
-  }
-
-  .user-holder {
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-  }
-  .card-text {
-    font-size: 5px;
-  }
-
-  .card-text-last {
-    font-size: 5px;
-  }
-
-  .card-holder .secondary {
-    padding-top: 0.2rem;
-    padding-left: 0.5rem;
   }
 }

@@ -36,7 +36,8 @@ export const Highlights = () => {
                 <p className="price">$5.99</p>
               </div>
               <p className="centertext">
-              Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. 
+                Our Bruschetta is made from grilled bread that has been smeared
+                with garlic and seasoned with salt and olive oil.
               </p>
               <div className="lastsection">
                 <p>Order a delivery</p>
@@ -52,7 +53,9 @@ export const Highlights = () => {
                 <p className="price">$5.00</p>
               </div>
               <p className="centertext">
-              This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.
+                This comes straight from grandma’s recipe book, every last
+                ingredient has been sourced and is as authentic as can be
+                imagined.
               </p>
               <div className="lastsection">
                 <p>Order a delivery</p>

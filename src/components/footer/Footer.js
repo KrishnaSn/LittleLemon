@@ -11,24 +11,54 @@ export const Footer = () => {
         <div className="right-section">
           <div className="text-holder">
             <h3>Doormat Navigation</h3>
-            <p>Home</p>
-            <p>About</p>
-            <p>Menu</p>
-            <p>Reservations</p>
-            <p>Order Online</p>
-            <p>Login</p>
+            <ul>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/">About</a>
+              </li>
+              <li>
+                <a href="/">Menu</a>
+              </li>
+              <li>
+                <a href="/booking">Reservations</a>
+              </li>
+              <li>
+                <a href="/">Order Online</a>
+              </li>
+              <li>
+                <a href="/">Login</a>
+              </li>
+            </ul>
           </div>
           <div className="text-holder">
             <h3>Contact</h3>
-            <p>Address</p>
-            <p>phone number</p>
-            <p>email</p>
+            <ul>
+              <li>
+                <a href="/">Address</a>
+              </li>
+              <li>
+                <a href="/">phone number</a>
+              </li>
+              <li>
+                <a href="/">email</a>
+              </li>
+            </ul>
           </div>
           <div className="text-holder">
             <h3>Social Media Links</h3>
-            <p>Address</p>
-            <p>phone number</p>
-            <p>email</p>
+            <ul>
+              <li>
+                <a href="/">Facebook</a>
+              </li>
+              <li>
+                <a href="/">Instagram</a>
+              </li>
+              <li>
+                <a href="/">Twitter</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

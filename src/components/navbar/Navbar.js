@@ -7,27 +7,29 @@ export const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <img src={Logo} alt="Main logo" />
-    
-      <ul className="nav-menu bold">
-        <li>
-          <a className="first" href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#menu">Menu</a>
-        </li>
-        <li>
-          <a href="#reservations">Reservations</a>
-        </li> 
-        <li>
-          <a href='#orderonline'>Order Online</a>
-        </li>
-        <li>
-          <a href='#login'>Login</a>
-        </li>
-      </ul>
+
+        <ul className="nav-menu bold">
+          <li>
+            <a className="first" href="/">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/">About</a>
+          </li>
+          <li>
+            <a href="/">Menu</a>
+          </li>
+          <li>
+            <a href="/booking">Reservations</a>
+          </li>
+          <li>
+            <a href="/">Order Online</a>
+          </li>
+          <li>
+            <a href="/">Login</a>
+          </li>
+        </ul>
       </div>
     </div>
   );

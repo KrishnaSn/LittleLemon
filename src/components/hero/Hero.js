@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import { Link } from "react-router-dom";
 export const Hero = () => {
   return (
     <div className="hero">
@@ -13,12 +14,13 @@ export const Hero = () => {
             focused on traditional recipes served
             <br></br>with a modern twist.
           </p>
-          <button type="submit" className="btn ">
-            Reserve a Table
-          </button>
+          <Link to="/booking">
+            <button type="submit" className="btn ">
+              Reserve a Table
+            </button>
+          </Link>
         </div>
-        <div className="image">
-        </div>
+        <div className="image"></div>
       </div>
     </div>
   );
