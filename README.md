@@ -7,7 +7,5 @@ This website showcased implementing a booking application on the Little Lemon We
 
 Please note: the only functionality working on this website besides the design is the Reserve a Table function.
 
-![little lemon website table booking](/src/images/Github_cover.png)
-
 ## Project Description
 https://littlelemonkrishna.netlify.app/
