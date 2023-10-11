@@ -9,5 +9,5 @@ Please note: the only functionality working on this website besides the design i
 
 ![little lemon website table booking](/src/images/Github_cover.png)
 
-
-![Live demo](https://littlelemonkrishna.netlify.app/)
+## Project Description
+https://littlelemonkrishna.netlify.app/
